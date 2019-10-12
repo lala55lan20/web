@@ -1,0 +1,22 @@
+.bottomBox {
+    position: absolute;
+    bottom: 0px;
+}
+a {text-decoration: none}
+.ui {
+    width:100vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:#ccc; 
+}
+.navigatBtn{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.ui li {
+    width: 14vw;
+    margin: 10px 10px;
+    display: inline-block;
+    text-align: center;
+}
