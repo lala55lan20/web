@@ -1,0 +1,131 @@
+
+.ctn {
+   height: 90vh;
+   background-color: antiquewhite;
+   position: absolute;
+   top: 0px;
+   width: 100vw;
+ }
+ .btm{
+   height: 10vh;
+   background-color: aliceblue;
+   z-index: 10;
+}
+ .webglEle{
+   height: 90vh;
+   background-color: azure;
+ }
+ .ctnEle {
+   margin: 0px !important;
+}
+.ctnEle li{
+   display: inline-block;
+   width: 25vw;
+   text-align: center;
+   font-size: 1rem;
+   line-height: 4rem;
+}
+.search-navigate-btn-container {
+   position: fixed;
+   bottom: 1.3rem;
+   font-size: 0.9rem;
+   z-index: 9;
+   width: 100%;
+   background: #ccc;
+}
+
+.search-navigate-btn-container ul {
+   margin: 0 20px;
+   background-color: #fff;
+   height: 7vh;
+   box-sizing: border-box;
+   padding: 18px 20px;
+   align-items: center;
+   border-radius: 103PX;
+   font-weight: bold;
+   box-shadow: rgba(129, 148, 171, 0.3) 2px 4px 4px 0px;
+   position: relative;
+}
+
+.btmBtn {
+   list-style: none;
+}
+.btmBtn li{
+display: inline-block;
+}
+.Content {
+   float: left;
+   width: 100vw;
+}
+
+
+#tab-bar.demo {
+   display: flex;
+   flex-direction: column;
+ }
+ #tab-bar .demoName {
+   height: 40px;
+ }
+ #tab-bar .demo-preview-item .am-tab-bar {
+   background-color: white;
+ }
+
+ .am-tabs-horizontal .am-tabs-pane-wrap-active {
+   height: auto;
+   height: 130% !important;
+}
+
+.r_btn{
+   border: 1px solid;
+   border-radius: 2rem;
+   width: 3rem;
+   padding: 0.8rem;
+   text-align: center;
+}
+.r_btn2 {
+   border: 1px solid;
+   border-radius: 2rem;
+   width: 3rem;
+   padding: 0.2rem;
+   text-align: center;
+}
+ 
+.search-btn{
+   position: absolute;
+   bottom: 5rem;
+   right: 11rem;
+    /* margin-left: 5.5rem;
+    display: inline-block; */
+} 
+.search_box {
+   border: 1px solid;
+   position: absolute;
+   bottom: 4.5rem;
+   width: 100vw;
+   background-color: #fff;
+   height: 26vh;
+}
+.search_cancel, .search_btn {
+   display: inline-block;
+}
+.search_con_box{
+   height: 10vh;
+   margin-left: 3.5rem;
+}
+.search-path li {
+   display: inline-block;
+   margin-left: 4rem;
+}
+.search_sbtn {
+   margin-left: 5.5rem;
+}
+.search-path-floor li{
+   display: inline-block;
+   margin-left: 3rem;
+}
+.uiF{
+   float: right;
+}
+.uiF li {
+   list-style: none;
+}

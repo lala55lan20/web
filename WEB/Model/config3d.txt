@@ -1,0 +1,17 @@
+//// -project包的相关配置- 
+baoLocalPath = "Model/" 				//// 文件夹相对路径，没有就填""
+firstBaoNameAndExtItem="project_A.zip"		//// project前置包 包名+扩展
+projectBaoNameAndExt="project.zip"			//// project包名+扩展
+
+//// -定制模型相关信息- 
+customBaoLocalPath = "Model/" 			//// 文件夹相对路径，没有就填""
+customModelItem="XQ001.zip","XQ001"  	//// 格式为: customModelItem="(文件名+扩展)","(SVE场景里编辑的场景Id)"
+customModelItem="XQ002.zip","XQ002"
+customModelItem="XQ003.zip","XQ003"
+customModelItem="XQ004.zip","XQ004"
+
+//// -miaokit相关信息-
+projectIdent="EAM" 						//// 项目标识(没有填"")
+host="http://47.112.5.194/"				//// 数据加载地址
+testPOIMode="false"						//// 是否显示 未录入数据 的 节点浮标
+
