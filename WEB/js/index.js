@@ -81,7 +81,7 @@ class Webgl extends React.Component {
 
     getRoomlist() {
         $.ajax({
-            url: '../WEB4/easygojs/Data/RoomList.json',
+            url: '../WEB/easygojs/Data/RoomList.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
@@ -96,7 +96,7 @@ class Webgl extends React.Component {
 
     getRoomdata() {
         $.ajax({
-            url: '../WEB4/easygojs/Data/roomData.json',
+            url: '../WEB/easygojs/Data/roomData.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
@@ -111,7 +111,7 @@ class Webgl extends React.Component {
 
     floorList() {
         $.ajax({
-            url: '../WEB4/easygojs/Data/TYC.json',
+            url: '../WEB/easygojs/Data/TYC.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
@@ -345,7 +345,7 @@ class Webgl extends React.Component {
             $('#pageD').hide();
         })
         $.ajax({
-            url: '../WEB4/easygojs/Data/roomData.json',
+            url: '../WEB/easygojs/Data/roomData.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
@@ -807,7 +807,7 @@ class ListpageStart extends React.Component {
 
     roomList() {
         $.ajax({
-            url: '../WEB4/easygojs/Data/RoomList.json',
+            url: '../WEB/easygojs/Data/RoomList.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
@@ -822,7 +822,7 @@ class ListpageStart extends React.Component {
 
     floorList() {
         $.ajax({
-            url: '../WEB4/easygojs/Data/floorList.json',
+            url: '../WEB/easygojs/Data/floorList.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
@@ -854,7 +854,7 @@ class ListpageStart extends React.Component {
         console.log(this.state)
 
         $.ajax({
-            url: '../WEB4/easygojs/Data/floorList.json',
+            url: '../WEB/easygojs/Data/floorList.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
@@ -1060,7 +1060,7 @@ class ListpageEnd extends React.Component {
 
     roomList() {
         $.ajax({
-            url: '../WEB4/easygojs/Data/RoomList.json',
+            url: '../WEB/easygojs/Data/RoomList.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
@@ -1075,7 +1075,7 @@ class ListpageEnd extends React.Component {
 
     floorList() {
         $.ajax({
-            url: '../WEB4/easygojs/Data/floorList.json',
+            url: '../WEB/easygojs/Data/floorList.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
