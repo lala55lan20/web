@@ -1108,7 +1108,7 @@ class ListpageEnd extends React.Component {
         console.log(this.state)
    
         $.ajax({
-            url: '../WEB4/easygojs/Data/floorList.json',
+            url: '../WEB/easygojs/Data/floorList.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
